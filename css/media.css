@@ -79,8 +79,20 @@
   .about-company-title {
     text-align: start;
   }
+  .employee-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+  }
+  .team-div {
+    max-width: 869px;
+  }
+  .team_list {
+    width: calc((100% - 24px) / 2);
+  }
 }
 
+/*------------------------------------1158px------------------------------*/
 @media screen and (min-width: 1158px) {
   .container {
     min-width: 1158px;
@@ -145,5 +157,36 @@
   }
   .position-svg-ac {
     display: flex;
+  }
+  .studio-section {
+    display: flex;
+  }
+  .studio-services {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--text-color-second);
+    text-align: center;
+    width: 0 auto;
+    margin-bottom: 72px;
+  }
+  .studio-services-container {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 120px;
+  }
+
+  .studio-services-item {
+    width: calc((100% - 48px) / 3);
+  }
+  .employee-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+  .team_list {
+    width: calc((100% - 72px) / 4);
   }
 }

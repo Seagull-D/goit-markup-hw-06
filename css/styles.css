@@ -406,31 +406,14 @@ img {
 }
 
 /*---------------------What are we doing section-----------------------------*/
-.studio-services {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-  color: var(--text-color-second);
-  text-align: center;
-  width: 0 auto;
-  margin-bottom: 72px;
-}
-.studio-services-container {
-  display: flex;
-  gap: 24px;
-}
-
-.studio-services-item {
-  width: calc((100% - 48px) / 3);
+.studio-section {
+  display: none;
 }
 
 /*---------------------------Team seaction----------------------------*/
 .team-container {
   background: #f4f4fd;
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .team-title {
@@ -447,7 +430,8 @@ img {
 
 .team_list {
   background: #ffffff;
-  width: calc((100% - 72px) / 4);
+  max-width: 264px;
+  /* width: calc((100% - 72px) / 4); */
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -475,7 +459,10 @@ img {
 }
 .employee-list {
   display: flex;
-  gap: 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 72px;
 }
 
 .social-icons {
