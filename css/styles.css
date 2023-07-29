@@ -402,7 +402,7 @@ img {
 .list-container {
   /* width: calc((100% - 72px) / 4); */
 
-  /* position: relative; */
+  position: relative;
 }
 
 /*---------------------What are we doing section-----------------------------*/
@@ -513,8 +513,9 @@ img {
 }
 
 .customers-item {
-  width: calc((100% - 120px) / 6);
+  width: calc((100% - 16px) / 2);
   height: 88px;
+  width: 168px;
 }
 
 .customer-link {
@@ -543,8 +544,9 @@ img {
 
 .customers-icons {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 24px;
+  gap: 72px 16px;
 }
 
 /*---------------------------Footer-----------------------------------*/
