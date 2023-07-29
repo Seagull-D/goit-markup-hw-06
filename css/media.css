@@ -1,0 +1,149 @@
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 428px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 1100px;
+  }
+  .hamburder-btn {
+    display: none;
+  }
+  .header-menu {
+    display: flex;
+    position: relative;
+    gap: 40px;
+  }
+
+  .nav-container {
+    justify-content: start;
+  }
+  .link-header {
+    display: flex;
+    position: relative;
+    align-items: center;
+
+    flex-direction: column;
+  }
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    margin-right: 120px;
+  }
+  .main-title-container {
+    background-color: var(--background-second-color);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-tab.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 112px 0;
+  }
+  .main-title {
+    font-size: 56px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .main-title-container {
+      background-color: var(--background-second-color);
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-tab-2x.jpg);
+    }
+  }
+  .about-company-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .list-container {
+    max-width: 356px;
+    width: calc((100% - 24px) / 2);
+  }
+  .about-company-title {
+    text-align: start;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    min-width: 1158px;
+    max-width: 1140px;
+  }
+  .header-menu {
+    gap: 40px;
+  }
+  .link-header {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .logo {
+    margin-left: 156px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .nav-container {
+    gap: 76px;
+  }
+
+  .main-title-container {
+    background-color: var(--background-second-color);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-background.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 188px 0;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .main-title-container {
+      background-color: var(--background-second-color);
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-destop-2x.jpg);
+    }
+  }
+  .about-company-container {
+    gap: 24px;
+  }
+  .list-container {
+    width: calc((100% - 72px) / 4);
+    max-width: 264px;
+    position: relative;
+  }
+  .about-company-title {
+    font-size: 20px;
+  }
+  .position-svg-ac {
+    display: flex;
+  }
+}

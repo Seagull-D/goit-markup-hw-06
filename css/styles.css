@@ -49,7 +49,7 @@ img {
   list-style: none;
 }
 .container {
-  max-width: 767pxpx;
+  max-width: 767px;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -356,11 +356,11 @@ img {
 
 /*-----------------------About company------------------------------*/
 .about-company-title {
-  font-size: 20px;
+  font-size: 36px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: left;
+  text-align: center;
   color: var(--text-color-second);
   margin-bottom: 8px;
 }
@@ -375,7 +375,7 @@ img {
 }
 
 .position-svg-ac {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   height: 112px;
@@ -395,13 +395,14 @@ img {
 
 .about-company-container {
   display: flex;
-  gap: 24px;
+  flex-direction: column;
+  gap: 72px;
 }
 
 .list-container {
-  width: calc((100% - 72px) / 4);
-  max-width: 264px;
-  position: relative;
+  /* width: calc((100% - 72px) / 4); */
+
+  /* position: relative; */
 }
 
 /*---------------------What are we doing section-----------------------------*/
@@ -1043,122 +1044,4 @@ img {
 .submit-button:active,
 .submit-button:focus {
   background-color: #404bbf;
-}
-
-@media screen and (min-width: 428px) {
-  .container {
-    max-width: 428px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 1167px;
-  }
-  .hamburder-btn {
-    display: none;
-  }
-  .header-menu {
-    display: flex;
-    position: relative;
-    gap: 40px;
-  }
-
-  .nav-container {
-    justify-content: start;
-  }
-  .link-header {
-    display: flex;
-    position: relative;
-    align-items: center;
-
-    flex-direction: column;
-  }
-  .header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .logo {
-    margin-right: 120px;
-  }
-  .main-title-container {
-    background-color: var(--background-second-color);
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/Dark-bg-tab.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-    max-width: 1158px;
-    margin: 0 auto;
-    padding: 112px 0;
-  }
-  .main-title {
-    font-size: 56px;
-  }
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .main-title-container {
-      background-color: var(--background-second-color);
-      background-image: linear-gradient(
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
-        url(../images/Dark-bg-tab-2x.jpg);
-    }
-  }
-}
-
-@media screen and (min-width: 1158px) {
-  .container {
-    .header-menu {
-      gap: 40px;
-    }
-    .link-header {
-      display: flex;
-      flex-direction: row;
-      position: relative;
-      align-items: center;
-      gap: 40px;
-    }
-  }
-  .logo {
-    margin-left: 156px;
-    margin-right: 0;
-    margin-left: 0;
-  }
-  .nav-container {
-    gap: 76px;
-  }
-
-  .main-title-container {
-    background-color: var(--background-second-color);
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero-background.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 112px 0;
-  }
-  /* @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .main-title-container {
-      background-color: var(--background-second-color);
-      background-image: linear-gradient(
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
-        url(../images/people-office-destop-2x.jpg);
-    }
-  } */
 }
