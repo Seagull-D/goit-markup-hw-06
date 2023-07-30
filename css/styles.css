@@ -615,6 +615,8 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  margin: 0 auto;
 }
 
 .footer-container {
@@ -641,6 +643,9 @@ img {
 }
 .sbc-container .footer-text {
   margin-bottom: 16px;
+}
+.sbc-container {
+  margin: 0 auto;
 }
 .footer-subs-text {
   text-align: center;
