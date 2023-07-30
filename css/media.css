@@ -140,6 +140,23 @@
   .tam-soc-text {
     text-align: start;
   }
+  .subescribe-inbut {
+    width: 264px;
+  }
+  .button-container {
+    flex-wrap: nowrap;
+    max-width: 1158px;
+    margin-bottom: 64px;
+    justify-content: center;
+
+    gap: 24px;
+  }
+  .menu-container {
+    padding-top: 64px;
+  }
+  .menu-button {
+    padding: 12px 24px;
+  }
 }
 
 /*------------------------------------1158px------------------------------*/
@@ -280,5 +297,30 @@
     justify-content: start;
     margin-right: 80px;
     max-width: 208px;
+  }
+  .subescribe-inbut {
+    outline: transparent;
+
+    border: 1px solid var(--white, #fff);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    width: 264px;
+    color: var(--background-color);
+    padding-left: 16px;
+    height: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  }
+  .button-container {
+    flex-wrap: nowrap;
+    max-width: 1440px;
+    margin-bottom: 72px;
+    justify-content: center;
+
+    gap: 24px;
+  }
+  .menu-container {
+    padding-top: 100px;
+  }
+  .menu-button {
+    padding: 12px 24px;
   }
 }
