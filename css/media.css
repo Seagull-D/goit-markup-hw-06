@@ -105,6 +105,41 @@
   .customers {
     margin: 0 auto;
   }
+  .footer-container {
+  }
+
+  .footer-position {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    justify-content: start;
+    margin: 0 auto;
+    max-width: 768px;
+    padding-left: 108px;
+  }
+  .footer-subscribe {
+    flex-direction: row;
+    gap: 24px;
+  }
+  .wrap-tablet {
+  }
+  .studio-social-media {
+    margin: 0;
+    align-items: start;
+  }
+  .fooret-logo-text {
+    align-items: start;
+    margin: 0;
+  }
+  .footer-subs-text {
+    text-align: start;
+  }
+  .sbc-container {
+    margin: 0;
+  }
+  .tam-soc-text {
+    text-align: start;
+  }
 }
 
 /*------------------------------------1158px------------------------------*/
@@ -224,5 +259,26 @@
   .customers-title {
   }
   .customer-container {
+  }
+  .footer-position {
+    flex-wrap: nowrap;
+    gap: 0;
+    padding-left: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .fooret-logo-text {
+    margin-right: 120px;
+  }
+  .footer-text {
+    width: 264px;
+  }
+  .footer-social-ico {
+    padding-left: 0;
+  }
+  .studio-social-media {
+    justify-content: start;
+    margin-right: 80px;
+    max-width: 208px;
   }
 }
