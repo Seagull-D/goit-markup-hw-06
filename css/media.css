@@ -340,4 +340,7 @@
   .portfolio-cards {
     width: calc((100% - 48px) / 3);
   }
+  .cover-text {
+    display: inline-flex;
+  }
 }
