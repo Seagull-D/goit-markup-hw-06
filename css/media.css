@@ -27,7 +27,6 @@
     display: flex;
     position: relative;
     align-items: center;
-
     flex-direction: column;
   }
   .header-container {
@@ -39,18 +38,7 @@
     margin-right: 120px;
   }
   .main-title-container {
-    background-color: var(--background-second-color);
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/Dark-bg-tab.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
     max-width: 1158px;
-    margin: 0 auto;
-    padding: 112px 0;
   }
   .main-title {
     font-size: 56px;
