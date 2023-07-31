@@ -160,6 +160,14 @@
   .menu-button {
     padding: 12px 24px;
   }
+  .service-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+  .portfolio-cards {
+    width: calc((100% - 24px) / 2);
+  }
 }
 
 /*------------------------------------1158px------------------------------*/
@@ -325,5 +333,11 @@
   }
   .menu-button {
     padding: 12px 24px;
+  }
+  .service-container {
+    gap: 48px 24px;
+  }
+  .portfolio-cards {
+    width: calc((100% - 48px) / 3);
   }
 }

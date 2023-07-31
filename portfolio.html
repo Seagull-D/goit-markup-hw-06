@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,13 +27,19 @@
           <a class="logo link" href="./index.html"
             >Web<span class="second-logocolor-logo">Studio</span></a
           >
+          <button class="hamburder-btn" data-mob-open type="button ">
+            <svg class="humburger-svg" width="32" height="22">
+              <use href="./images/icons.svg#icon-menu-hamburger"></use>
+            </svg>
+          </button>
+
           <ul class="header-menu list">
             <li class="heder-menu-item">
               <a class="contact-link link" href="./index.html">Studio</a>
             </li>
             <li class="heder-menu-item">
               <a
-                class="contact-link link current portfolio-color"
+                class="contact-link link current studio-color"
                 href="./portfolio.html"
                 >Portfolio</a
               >
@@ -57,6 +63,72 @@
             </li>
           </ul>
         </address>
+      </div>
+      <div class="mob-menu is-hidden" data-mob>
+        <div>
+          <button class="close-menu-button" type="button " data-mob-close>
+            <svg class="menu-button-svg" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+
+          <ul class="header-mob-menu list">
+            <li class="header-mob-menu-item">
+              <a class="contact-link-mob link studio-color" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li class="header-mob-menu-item">
+              <a class="contact-link-mob link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="header-mob-menu-item">
+              <a class="contact-link-mob link" href="">Contacts</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <ul class="link-mob-header list" id="contact">
+            <li>
+              <a class="address-mob-link link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li>
+              <a class="address-mob-link link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="mob-social-icons">
+            <li class="mob-soc-ico-iteam">
+              <a class="mob-soc-link" href="#">
+                <svg class="mob-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use></svg
+              ></a>
+            </li>
+            <li class="mob-soc-ico-iteam">
+              <a class="mob-soc-link" href="#">
+                <svg class="mob-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use></svg
+              ></a>
+            </li>
+            <li class="mob-soc-ico-iteam">
+              <a class="mob-soc-link" href="#">
+                <svg class="mob-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+            <li class="mob-soc-ico-iteam">
+              <a class="mob-soc-link" href="#">
+                <svg class="mob-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <!--Main content-->
@@ -355,5 +427,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/mobile.js"></script>
   </body>
 </html>
